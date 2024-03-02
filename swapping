@@ -1,0 +1,37 @@
+#Swapping two numbers
+#The value's get swap between eachother
+
+n1=int(input("Enter a value:"))
+n2=int(input("Enter a value:"))
+print("before swapping")
+print(n1,"and",n2)
+t=n1  #"t"=temparary value
+n1=n2
+n2=t
+print("after swapping")
+print(n1,"and",n2)
+
+#swap without temparory value
+a = 5
+b = 10
+
+print("Before swap:")
+print("a =", a)
+print("b =", b)
+
+# Swap without using a temporary variable
+a, b = b, a
+
+print("\nAfter swap:")
+print("a =", a)
+print("b =", b)
+
+#end#
+
+OUTPUT:
+Enter a value:8
+Enter a value:66
+before swapping
+8 and 66
+after swapping
+66 and 8
