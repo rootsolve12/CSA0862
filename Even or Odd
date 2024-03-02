@@ -1,0 +1,17 @@
+#Even or OddOUT
+
+n=int(input("Enter a value: "))
+#A number divisible by 2 & it's remainder is 0,then it is a even number
+if(n%2==0):
+    print("Even")
+
+#A number not divisible by 2 & it's remainder is 1,then it is a odd number
+else:
+    print("Odd")
+
+OUTPUT:
+Enter a value: 5
+Odd
+
+Enter a value: 14
+Even
