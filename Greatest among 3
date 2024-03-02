@@ -1,0 +1,19 @@
+#Largest among the three
+#comparing among the three,which is greater....
+
+x=int(input("Enter the value:"))
+y=int(input("Enter the value:"))
+z=int(input("Enter the value:"))
+
+if(x>y and x>z):
+    print("x is greater")
+elif(y>x and y>z):
+    print("y is greater")
+else:
+    print("z is greater")
+
+OUTPUT:
+Enter the value:5
+Enter the value:7
+Enter the value:2
+y is greater
