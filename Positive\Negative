@@ -1,0 +1,17 @@
+#Positive or Negative
+#In this the program checks wheather the given number is positive or negative
+
+n=int(input("Enter the number:"))
+if(n<0):
+    print("negative")
+elif(n>0):
+    print("positive")
+else:
+    print("error")#for "0"
+
+OUTPUT:
+Enter the number:55
+positive
+
+Enter the number:-4
+negative
