@@ -1,0 +1,17 @@
+#Sum of digits
+#The of digits done by adding  up numbers in order
+
+n=int(input("Enter the value:"))
+sum=0
+while n>0:
+    digit = n%10
+    sum += digit
+    n//=10
+print("sum of digits:",sum)
+
+OUTPUT:
+Enter the value:19529
+sum of digits: 26
+
+Enter the value:17541
+sum of digits: 18
