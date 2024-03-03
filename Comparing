@@ -1,0 +1,10 @@
+#Compare two numbers
+#In this two numbers made compare each other whether if they are equal or not>>
+
+a=int(input("Enter the value:"))
+b=int(input("Enter the value:"))
+
+if(a==b):
+    print("Equal")
+else:
+    print("Not Equal")
