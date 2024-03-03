@@ -1,0 +1,14 @@
+#increment by 1 values
+#It increases 1 to all of given integer digit
+
+n=int(input("Enter a number:"))
+result=0
+position=1
+
+while n>0:
+    digit=n%10
+    digit=(digit+1)%10
+    result+=digit*position
+    position*=10
+    n//=10
+print("After Increment the digits by 1:",result)
