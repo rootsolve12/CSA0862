@@ -1,0 +1,29 @@
+#Pascal's Triangle
+#in this the triangle for every step add's upon the previous one's
+
+num_rows = int(input("Enter the number of rows for Pascal's triangle: "))
+
+triangle = []
+
+for i in range(num_rows):
+    row = [1] * (i + 1)
+    for j in range(1, i):
+        row[j] = triangle[i - 1][j - 1] + triangle[i - 1][j]
+
+    triangle.append(row)
+
+print("Pascal's Triangle:")
+for row in triangle:
+    for element in row:
+        print(element, end=" ")
+    print()
+
+OUTPUT:
+Enter the number of rows for Pascal's triangle: 6
+Pascal's Triangle:
+1 
+1 1 
+1 2 1 
+1 3 3 1 
+1 4 6 4 1 
+1 5 10 10 5 1 
