@@ -1,0 +1,23 @@
+#Palindrome or not
+#a number is said to be read same front as well as backward,as reversing the nummbers we get the same value
+
+n=int(input("Enter the number:"))
+temp=n
+rev=0
+num=0
+while(n!=0):
+    num=n%10
+    rev=rev*10
+    rev+=num
+    n=n//10
+if(rev==temp):
+    print("it's a palindrome")
+else:
+    print("not a palindrome")
+
+OUTPUT:
+Enter the number:121
+it's a palindrome
+
+Enter the number:342
+not a palindrome
