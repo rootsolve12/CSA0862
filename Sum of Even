@@ -1,0 +1,11 @@
+#Sum of even numbers
+Even_sum=0
+
+for num in range(1, 101):
+    if num % 2 == 0:
+        Even_sum += num
+
+print("Sum of even numbers between 1 to 100:",Even_sum)
+
+OUTPUT:
+Sum of even numbers between 1 to 100: 2550
