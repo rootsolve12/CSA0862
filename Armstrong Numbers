@@ -1,0 +1,35 @@
+#Armstrong Number's
+#a number in which the digits itself raise to the value
+
+lower = int(input("Enter lower range: "))
+upper = int(input("Enter upper range: "))
+
+print("Armstrong numbers in the range", lower, "to", upper, "are:")
+
+#wxyz=pow(w,n)+pow(x,n)+pow(y,n)+pow(z,n)
+for num in range(lower, upper + 1):
+    order = len(str(num))
+    armstrong_sum = 0
+    temp = num
+    while temp > 0:
+        digit = temp % 10
+        armstrong_sum += digit ** order
+        temp //= 10
+
+    if num == armstrong_sum:
+        print(num)
+
+OUTPUT:  #it is nunmber of armstrong values ranginig btw this values
+Enter lower range: 1
+Enter upper range: 200
+Armstrong numbers in the range 1 to 200 are:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+153
