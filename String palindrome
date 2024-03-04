@@ -1,0 +1,17 @@
+#string palindrome
+
+string = input("Enter a string: ")
+
+string = string.replace(" ", "").lower()
+
+if string == string[::-1]:
+    print("The string is a palindrome.")
+else:
+    print("The string is not a palindrome.")
+
+OUTPUT:
+Enter a string: malayalam
+The string is a palindrome.
+
+Enter a string: otto
+The string is a palindrome.
