@@ -1,0 +1,14 @@
+#Area of circle
+
+r=int(input("Enter the radius:"))
+a=3.143*r*r                      #Area of circle=pi*r^2
+circumference=2*3.14*r           #circumference=2*pi*r
+
+print("area of circle:",a)
+print("circumference of circle:",circumference)
+
+OUTPUT:
+
+Enter the radius:5
+area of circle: 78.575
+circumference of circle: 31.400000000000002
