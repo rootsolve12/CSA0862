@@ -1,0 +1,24 @@
+#vowels&consonants
+#classifying the vowels and consonants in a given sentence
+
+sentence=input("Enter the sentence:")
+
+vowels={"a","e","i","o","u"}
+consonants=set('abcdefghijklmnopqrstuvwxyz')-vowels
+
+num_vowels=0
+num_consonants=0
+
+for char in sentence:
+    if char in vowels:
+        num_vowels += 1
+    elif char in consonants and char.isalpha():
+        num_consonants += 1
+
+print("number of vowels:",num_vowels)
+print("number of consonants:",num_consonants)
+
+OUTPUT:
+Enter the sentence:hello world good morning
+number of vowels: 7
+number of consonants: 14
