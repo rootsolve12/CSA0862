@@ -1,0 +1,12 @@
+#Area of traingle
+
+l=int(input("Enter the length:"))
+b=int(input("Enter the breadth:"))
+
+area=0.5*l*b                       #area of triangle=1/2*l*b
+print("area of triangle:",area)
+
+OUTPUT:
+Enter the length:10
+Enter the breadth:5
+area of triangle: 25.0
