@@ -1,0 +1,11 @@
+#Power value
+
+n=int(input("Enter the base number:"))
+l=int(input("Enter the exponent:"))
+a=pow(n,l)
+print(a)
+
+OUTPUT:
+Enter the base number:2
+Enter the exponent:3
+8
