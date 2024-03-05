@@ -1,0 +1,16 @@
+#Perfect Square
+
+import math
+n=int(input("Enter the number"))
+s=math.sqrt(n)
+if s.is_integer():
+    print("it is perfect square")
+else:
+    print("it is not a perfect square")
+
+OUTPUT:
+Enter the number25
+it is perfect square
+
+Enter the number49
+it is perfect square
